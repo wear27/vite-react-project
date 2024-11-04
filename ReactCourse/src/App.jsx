@@ -13,18 +13,7 @@ import JournalForm from './components/JournalForm/JournalForm'
 import {useState} from 'react'
 
 const INITIAL_DATA = [
-    //{
-      //id: 1,
-      //title: 'Подготовка к обновелнию курсов',
-      //text: 'Горные походы открывают удивительные природные ландшафты',
-      //date: new Date(),
-    //},
-    //{
-      //id: 2,
-      //title: 'Поход в горы',
-      //text: 'Думал, что у меня очень много времени',
-      //date: new Date(),
-    //}
+    
 ]
 
 function App() {

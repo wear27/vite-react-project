@@ -45,10 +45,10 @@ function JournalForm({ onSubmit }) {
     
     return (        
         <form className='journal-form' onSubmit={addJournalItem}>
-            <input type='text' name='title' style={{border: formValidState.title ? undefined : '1px solid red'}}/>
-            <input type = 'date' name='date' style={{border: formValidState.date ? undefined : '1px solid red'}} />
+            <input type='text' name='title' className={`input ${formValidState.title ? '' : 'invalid'}`} />
+            <input type = 'date' name='date' className={`input ${formValidState.date ? '' : 'invalid'}`}/>
             <input type='text'name='tag' />
-            <textarea name="text" id="" cols="30" rows="10" style={{border: formValidState.text ? undefined : '1px solid red'}}></textarea>
+            <textarea name="text" id="" cols="30" rows="10" className={`input ${formValidState.text ? '' : 'invalid'}`} ></textarea>
             <Button text="Сохранить"/>
         </form>             
     );
