@@ -36,7 +36,7 @@
 .form-row{
     display: flex;
     align-items: center; 
-    gap: 50px;
+    /*gap: 50px;*/
 }
 
 .input{
@@ -56,3 +56,16 @@
      background: rgb(68, 6, 6);
 }
 
+.delete{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+}
+
+.delete:hover {
+    background: rgb(255, 255, 0, 0.05);
+    border-radius: 50%;
+}
